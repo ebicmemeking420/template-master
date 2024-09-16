@@ -1,0 +1,43 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "serve": "io-serve",
+    "lint": "eslint . --ext .ts,.tsx --fix"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.806",
+    "@rbxts/ui-labs": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-roblox-ts": "^0.0.35",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "io-serve": "^1.1.2",
+    "prettier": "^2.8.3",
+    "rbxts-transformer-flamework": "^1.2.3",
+    "rbxts-transformer-services": "^1.0.1",
+    "roblox-ts": "^3.0.0"
+  },
+  "dependencies": {
+    "@flamework/components": "^1.2.3",
+    "@flamework/core": "^1.2.3",
+    "@flamework/networking": "^1.2.3",
+    "@rbxts/janitor": "^1.14.1-ts.1",
+    "@rbxts/object-utils": "^1.0.4",
+    "@rbxts/services": "^1.2.0",
+    "@rbxts/sift": "^0.0.2",
+    "@rbxts/signal": "^1.1.1",
+    "@rbxts/t": "^3.1.0"
+  }
+}

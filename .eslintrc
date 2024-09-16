@@ -1,0 +1,34 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint", "roblox-ts", "simple-import-sort", "unused-imports", "prettier"],
+	"extends": ["plugin:@typescript-eslint/recommended", "plugin:roblox-ts/recommended", "plugin:prettier/recommended"],
+	"rules": {
+		"prettier/prettier": [
+			"warn",
+			{
+				"semi": true,
+				"trailingComma": "all",
+				"singleQuote": false,
+				"printWidth": 120,
+				"tabWidth": 4,
+				"useTabs": true,
+				"endOfLine": "auto"
+			}
+		],
+		"roblox-ts/lua-truthiness": "off",
+		"no-undef": "off", // It breaks with Roblox-ts
+		"class-methods-use-this": "off",
+		"no-throw-literal": "off",
+		"@typescript-eslint/comma-dangle": "off", // Avoid conflict rule between Eslint and Prettier
+		"import/prefer-default-export": "off", // Named export is easier to refactor automatically
+		"simple-import-sort/imports": "error", // Import configuration for `eslint-plugin-simple-import-sort`
+		"simple-import-sort/exports": "error", // Export configuration for `eslint-plugin-simple-import-sort`
+		"@typescript-eslint/no-unused-vars": "off",
+		"unused-imports/no-unused-imports": "error",
+		"unused-imports/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+		"no-param-reassign": ["error", { "props": false }],
+		"@typescript-eslint/member-ordering": "error",
+		"roblox-ts/no-private-identifier": "off",
+		"lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }]
+	}
+}

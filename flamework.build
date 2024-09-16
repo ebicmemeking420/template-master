@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"flameworkVersion": "1.2.3",
+	"identifiers": {
+		"game:out/shared/events@GlobalEvents": "shared/events@GlobalEvents",
+		"game:out/shared/functions@GlobalFunctions": "shared/functions@GlobalFunctions",
+		"game:out/server/services/service@MyService": "server/services/service@MyService",
+		"game:out/server/services/CharacterService@MyService": "server/services/CharacterService@MyService",
+		"game:out/server/services/CharacterService@CharacterService": "server/services/CharacterService@CharacterService",
+		"game:out/server/components/ToolComponent@ToolComponent": "server/components/ToolComponent@ToolComponent",
+		"game:out/server/components/ToolComponent@MyComponent": "server/components/ToolComponent@MyComponent",
+		"game:out/client/controllers/ToolController@ToolController": "client/controllers/ToolController@ToolController",
+		"game:out/shared/components/ToolComponent@ToolComponent": "shared/components/ToolComponent@ToolComponent"
+	},
+	"metadata": {}
+}
